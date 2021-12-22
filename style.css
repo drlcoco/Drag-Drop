@@ -1,0 +1,49 @@
+main
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#dropbox {
+  border: solid black;
+  width: 30vw;
+  height: 15vh;
+  margin-bottom: 1vw;
+  color: white;
+  background-color: #004cff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#filetable {
+  width: 30vw; 
+}
+
+table, th, td {
+  border-collapse: collapse;
+  border: 1px solid #333;
+  width: 100%;
+}
+
+th, td {
+  padding: 5px;
+}
+
+td { text-align: center; }
+
+th { background-color: silver; }
+
+td > img {
+  width: 3vw;
+  height: 3vw;
+}
+
+#dropbox.active{
+  background: rgb(213, 226, 226);
+  border: 2px dashed #618ac9;
+  color: #004cff;
+}
